@@ -23,11 +23,11 @@ It also includes unit tests written using Python's built-in `unittest` framework
 - Unit tests covering typical and edge cases
 ---
 
-## 🛠 Requirements
+## Requirements
 
 - Python 3.x
 
-No external libraries are needed.
+- No external libraries are needed.
 
 ---
 
@@ -47,8 +47,7 @@ OK
 
 ## Usage Instructions
 To run the calculator from the console:
-
-python calculator.py
+   python calculator.py
 
 ## Author
 Developed as part of a structured coding and testing practice project.
