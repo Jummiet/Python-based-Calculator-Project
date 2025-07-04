@@ -47,7 +47,7 @@ def divide(a, b):
     return a / b
 
 
-# If you want to allow command-line interaction:
+# Allows command-line interaction:
 if __name__ == "__main__":
     print("Simple Calculator")
     print("Operations: 1) Add  2) Subtract  3) Divide")
