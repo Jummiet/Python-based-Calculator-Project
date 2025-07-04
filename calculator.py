@@ -30,7 +30,7 @@ def subtract(a, b):
 
 def divide(a, b):
     """
-    Divides the first number by the second.
+    This task Divides the first number by the second.
 
     Parameters:
         a (float): The numerator
