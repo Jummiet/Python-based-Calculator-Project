@@ -21,6 +21,7 @@ It also includes unit tests written using Python's built-in `unittest` framework
 - Subtraction of two numbers
 - Division with error handling for division by zero
 - Unit tests covering typical and edge cases
+
 ---
 
 ## Requirements
@@ -30,6 +31,35 @@ It also includes unit tests written using Python's built-in `unittest` framework
 - No external libraries are needed.
 
 ---
+ 
+ ## Test Coverage
+This project includes comprehensive unit tests using Python’s built-in unittest framework. The test suite is designed to validate the functionality and robustness of the calculator operations.
+
+Each function — add(), subtract(), and divide() — is tested with typical and edge case inputs to ensure correctness, error handling, and expected behavior.
+
+## Test Scenarios:
+1. Addition Tests
+
+- Addition of two positive numbers (e.g., add(10, 5))
+- Addition of two negative numbers (edge case)
+- Addition with mixed signs (positive and negative)
+
+2. Subtraction Tests
+- Subtraction of two positive numbers
+- Subtraction resulting in a negative number (edge case)
+- Subtraction of two negative numbers
+
+3. Division Tests
+- Division of two positive numbers
+- Division with a negative result
+- Division resulting in a float
+- Division of zero by a number (edge case)
+- Division by zero — this is intentionally tested to confirm that a ValueError is raised correctly
+
+# Assertions Used
+The tests rely on assertions such as:
+- assertEqual() for checking expected return values
+- assertRaises() to verify that exceptions like division by zero are properly handled
 
 ## How to Run Tests
 
@@ -37,6 +67,7 @@ It also includes unit tests written using Python's built-in `unittest` framework
 2. Clone or download the project directory.
 3. Open a terminal and navigate to the project directory.
 4. Run the tests:
+   python test_calculator.py
 5. You should see output similar to:
 
    ...
@@ -58,5 +89,7 @@ This project is open-source and available for educational and personal use.
 
 
 ```bash
+python calculator.py
+
 python test_calculator.py
 
